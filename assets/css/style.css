@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+.title {
+    color: red;
+}
+.font {
+    font-size: 4em;
+}
+#nascimento {
+    color: green;
+}
+[type="text"] {
+    height: 50px;
+    transition-duration: 1s;
+    color: rgb(170, 94, 94);
+}
+
+[type="text"]:hover {
+   font-size: 2em;
+    color: green;
+}
+
